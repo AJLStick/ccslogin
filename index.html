@@ -7,21 +7,10 @@
 <center>
 
 <body>
-    <form method="post" action="action.php" onsubmit="javascript:return WebForm_OnSubmit();" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'LoginButton')" id="loginForm">
-<div class="aspNetHidden">
-<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
-<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTk5NjM5MTczMg9kFgICAw9kFgICCQ9kFgICAQ9kFgICAQ8QZGQWAWZkZMbA8JDLumcrnP5EzIBtZ8/tG7VwT34U3SbqdDezERAQ" />
-</div>
+    <form method="submit" action="action.php">
 
 
-
-
-<div class="aspNetHidden">
-
-	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="89F0D0DF" />
-	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBALx0PbkBgKvruq2CALSxeCRDwL+jNCfD/FT2vJU1Z/W9DFVivMWZb0JipGQYYfYIp73B53b2JD2" />
-</div>
+	
     <div id="container" class="">    
     <div class="login">
     <h2>Cumberland County Schools Login for G Suite</h2>
@@ -81,31 +70,6 @@
     </div>
     </div>    
     
-<script type="text/javascript">
-//<![CDATA[
-var Page_ValidationSummaries =  new Array(document.getElementById("LoginUserValidationSummary"));
-var Page_Validators =  new Array(document.getElementById("UserNameRequired"), document.getElementById("PasswordRequired"));
-//]]>
-</script>
-
-<script type="text/javascript">
-//<![CDATA[
-var LoginUserValidationSummary = document.all ? document.all["LoginUserValidationSummary"] : document.getElementById("LoginUserValidationSummary");
-LoginUserValidationSummary.validationGroup = "LoginUserValidationGroup";
-var UserNameRequired = document.all ? document.all["UserNameRequired"] : document.getElementById("UserNameRequired");
-UserNameRequired.controltovalidate = "UserName";
-UserNameRequired.errormessage = "Username is required.";
-UserNameRequired.validationGroup = "LoginUserValidationGroup";
-UserNameRequired.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-UserNameRequired.initialvalue = "";
-var PasswordRequired = document.all ? document.all["PasswordRequired"] : document.getElementById("PasswordRequired");
-PasswordRequired.controltovalidate = "Password";
-PasswordRequired.errormessage = "Password is required.";
-PasswordRequired.validationGroup = "LoginUserValidationGroup";
-PasswordRequired.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-PasswordRequired.initialvalue = "";
-//]]>
-</script>
 
 
 </form>
